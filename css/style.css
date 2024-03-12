@@ -1,0 +1,30 @@
+html {
+    /* color: #2a7edd, #487ebc, #6d98c9, #91b2d7, #b6cbe4, #dae5f2,   #e1eaf5 BLUE OCEAN */
+    /* color: #181716, #2a2727,#393433, #453f3d, #57504d */
+}
+
+.navbar {
+    background-color: #181716;
+}
+
+.navbar-brand {
+    color: #2a7edd;
+    font-weight: bold
+}
+
+.navbar-nav .nav-link.active {
+    color: #dae5f2;
+}
+
+.navbar-nav a {
+    color: #dae5f2;
+}
+
+.navbar-nav .nav-link.active:hover,
+.navbar-nav a:hover {
+    color: #6d98c9;
+}
+
+.navbar-nav .nav-link:active {
+    color: #dae5f2;
+}
