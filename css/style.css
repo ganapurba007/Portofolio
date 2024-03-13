@@ -3,28 +3,15 @@ html {
     /* color: #181716, #2a2727,#393433, #453f3d, #57504d */
 }
 
-.navbar {
-    background-color: #181716;
-}
-
-.navbar-brand {
+.navbar .navbar-brand {
     color: #2a7edd;
-    font-weight: bold
+    font-weight: bold;
 }
 
-.navbar-nav .nav-link.active {
-    color: #dae5f2;
+.navbar-nav .nav-link {
+    color: #b6cbe4;
 }
 
-.navbar-nav a {
-    color: #dae5f2;
-}
-
-.navbar-nav .nav-link.active:hover,
-.navbar-nav a:hover {
-    color: #6d98c9;
-}
-
-.navbar-nav .nav-link:active {
-    color: #dae5f2;
+.navbar-nav .nav-link:hover {
+    color: #487ebc;
 }
