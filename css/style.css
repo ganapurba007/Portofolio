@@ -1,7 +1,8 @@
 /* color: #2a7edd, #487ebc, #6d98c9, #91b2d7, #b6cbe4, #dae5f2,   #e1eaf5 BLUE OCEAN */
 /* color: #181716, #2a2727,#393433, #453f3d, #57504d */
-body {
-    height: 1000px;
+
+section {
+    padding-top: 5rem;
 }
 
 .navbar .navbar-brand {
@@ -19,30 +20,41 @@ body {
 }
 
 .jumbotron {
+    padding-top: 6rem;
     background-color: #181716;
 }
 
-.jumbotron p:nth-child(1) {
+.jumbotron h6 {
     color: white;
-    margin-bottom:0.4em;
+    margin-bottom: 0.4em;
 }
 
-.jumbotron p:nth-child(2) {
+.jumbotron h1 {
     color: #2a7edd;
+    letter-spacing: 0.1rem;
 }
 
-.jumbotron p:nth-child(3) {
+.jumbotron p {
     color: rgb(144, 144, 144);
-    margin-top: -1em;
+    margin-top: 0.4em;
     margin-bottom: 2em;
 }
 
-.jumbotron a{
+.jumbotron a {
     color: #007bff;
     background-color: transparent;
     border-color: #fff;
     transition: all 0.3s ease;
 }
-.jumbotron a:hover{
-    background-color:white;
+
+.jumbotron a:hover {
+    background-color: white;
 }
+
+#about {
+    background-color: #dae5f2;
+}
+
+/* #about p {
+    text-align: justify;
+} */
