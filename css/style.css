@@ -55,6 +55,10 @@ section {
     background-color: #dae5f2;
 }
 
-/* #about p {
+#about p {
     text-align: justify;
-} */
+}
+
+#portofolio {
+    background-color: #181716;
+}
